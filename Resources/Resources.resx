@@ -141,6 +141,9 @@
   <data name="languages" xml:space="preserve">
     <value>Languages</value>
   </data>
+  <data name="latestBlogPosts" xml:space="preserve">
+    <value>Latest Blog Posts</value>
+  </data>
   <data name="major1" xml:space="preserve">
     <value>Computer Engineering</value>
   </data>

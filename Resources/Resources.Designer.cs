@@ -133,6 +133,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Latest Blog Posts.
+        /// </summary>
+        public static string latestBlogPosts {
+            get {
+                return ResourceManager.GetString("latestBlogPosts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Computer Engineering.
         /// </summary>
         public static string major1 {
