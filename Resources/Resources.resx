@@ -147,6 +147,18 @@
   <data name="english" xml:space="preserve">
     <value>English</value>
   </data>
+  <data name="jobDesc1" xml:space="preserve">
+    <value>jobDesc1</value>
+  </data>
+  <data name="jobDesc2" xml:space="preserve">
+    <value>jobDesc2</value>
+  </data>
+  <data name="jobDesc3" xml:space="preserve">
+    <value>jobDesc3</value>
+  </data>
+  <data name="jobDesc4" xml:space="preserve">
+    <value>jobDesc4</value>
+  </data>
   <data name="jobTitle1" xml:space="preserve">
     <value />
   </data>
