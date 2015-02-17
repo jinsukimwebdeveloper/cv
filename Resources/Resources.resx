@@ -127,16 +127,16 @@
     <value>Business Level</value>
   </data>
   <data name="company1" xml:space="preserve">
-    <value />
+    <value>Carbon Code Technology</value>
   </data>
   <data name="company2" xml:space="preserve">
-    <value />
+    <value>AIG</value>
   </data>
   <data name="company3" xml:space="preserve">
-    <value />
+    <value>Tongyang Networks</value>
   </data>
   <data name="company4" xml:space="preserve">
-    <value />
+    <value>Alticast</value>
   </data>
   <data name="downloadCV" xml:space="preserve">
     <value>Download CV</value>
@@ -148,28 +148,32 @@
     <value>English</value>
   </data>
   <data name="jobDesc1" xml:space="preserve">
-    <value>jobDesc1</value>
+    <value>CRM production support with business users in UK and Philippines.
+Developed business back office and web service.</value>
   </data>
   <data name="jobDesc2" xml:space="preserve">
-    <value>jobDesc2</value>
+    <value>CRM production support with offshore development teams in India and Philippine.
+Worked with AIG APAC region marketing team in Malaysia.</value>
   </data>
   <data name="jobDesc3" xml:space="preserve">
-    <value>jobDesc3</value>
+    <value>Developed Tongyang online CRM using Salesforce.com.
+Developed Tongyang life insurance CRM demo using Salesforce.com</value>
   </data>
   <data name="jobDesc4" xml:space="preserve">
-    <value>jobDesc4</value>
+    <value>Developed Tongyang online CRM using Salesforce.com.
+Developed Tongyang life insurance CRM demo using Salesforce.com</value>
   </data>
   <data name="jobTitle1" xml:space="preserve">
-    <value />
+    <value>Web Developer</value>
   </data>
   <data name="jobTitle2" xml:space="preserve">
-    <value />
+    <value>Business Analyst</value>
   </data>
   <data name="jobTitle3" xml:space="preserve">
-    <value />
+    <value>Web Developer</value>
   </data>
   <data name="jobTitle4" xml:space="preserve">
-    <value />
+    <value>IPTV Application Developer</value>
   </data>
   <data name="korean" xml:space="preserve">
     <value>Korean</value>
@@ -187,10 +191,10 @@
     <value>Bachelor of Information Technology</value>
   </data>
   <data name="myHobby" xml:space="preserve">
-    <value>My Hobby</value>
+    <value>I play blues music with my friends. I love BB King. He is my hero. I practice meditation every morning. I'd like to purify my mind through meditation to live happy life.</value>
   </data>
   <data name="myIntroduction" xml:space="preserve">
-    <value>Hi? My name is Jinsu Kim working as a web developer for Bodog (http://www.bodog.eu/). I develop the business back office for online games.</value>
+    <value>Hi? My name is Jinsu Kim working as a web developer for Bodog. I develop the business back office and web service for online games.</value>
   </data>
   <data name="myName" xml:space="preserve">
     <value>Jinsu Kim</value>
@@ -199,16 +203,10 @@
     <value>Native Language</value>
   </data>
   <data name="projectDesc1" xml:space="preserve">
-    <value>projectDesc1</value>
+    <value>I work for Bodog poker game's business backoffice and web service.</value>
   </data>
   <data name="projectDesc2" xml:space="preserve">
-    <value>projectDesc2</value>
-  </data>
-  <data name="projectDesc3" xml:space="preserve">
-    <value>projectDesc3</value>
-  </data>
-  <data name="projectDesc4" xml:space="preserve">
-    <value>projectDesc4</value>
+    <value>CRM for everyone! I am working with CRM. I write a code as a hobby. I'd like to make a company like a Salesforce.com!</value>
   </data>
   <data name="recentProject" xml:space="preserve">
     <value>Recent Project</value>
@@ -217,7 +215,7 @@
     <value>Skills</value>
   </data>
   <data name="skillsIntro" xml:space="preserve">
-    <value>Skills Intro</value>
+    <value>I am working as a ASP.NET Web developer. I develop MVC, Webform and WCF web service.</value>
   </data>
   <data name="university1" xml:space="preserve">
     <value>Inha University</value>

@@ -88,7 +88,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Carbon Code Technology.
         /// </summary>
         public static string company1 {
             get {
@@ -97,7 +97,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to AIG.
         /// </summary>
         public static string company2 {
             get {
@@ -106,7 +106,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Tongyang Networks.
         /// </summary>
         public static string company3 {
             get {
@@ -115,7 +115,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Alticast.
         /// </summary>
         public static string company4 {
             get {
@@ -151,7 +151,8 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to jobDesc1.
+        ///   Looks up a localized string similar to CRM production support with business users in UK and Philippines.
+        ///Developed business back office and web service..
         /// </summary>
         public static string jobDesc1 {
             get {
@@ -160,7 +161,8 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to jobDesc2.
+        ///   Looks up a localized string similar to CRM production support with offshore development teams in India and Philippine.
+        ///Worked with AIG APAC region marketing team in Malaysia..
         /// </summary>
         public static string jobDesc2 {
             get {
@@ -169,7 +171,8 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to jobDesc3.
+        ///   Looks up a localized string similar to Developed Tongyang online CRM using Salesforce.com.
+        ///Developed Tongyang life insurance CRM demo using Salesforce.com.
         /// </summary>
         public static string jobDesc3 {
             get {
@@ -178,7 +181,8 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to jobDesc4.
+        ///   Looks up a localized string similar to Developed Tongyang online CRM using Salesforce.com.
+        ///Developed Tongyang life insurance CRM demo using Salesforce.com.
         /// </summary>
         public static string jobDesc4 {
             get {
@@ -187,7 +191,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Web Developer.
         /// </summary>
         public static string jobTitle1 {
             get {
@@ -196,7 +200,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Business Analyst.
         /// </summary>
         public static string jobTitle2 {
             get {
@@ -205,7 +209,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Web Developer.
         /// </summary>
         public static string jobTitle3 {
             get {
@@ -214,7 +218,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to IPTV Application Developer.
         /// </summary>
         public static string jobTitle4 {
             get {
@@ -268,7 +272,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to My Hobby.
+        ///   Looks up a localized string similar to I play blues music with my friends. I love BB King. He is my hero. I practice meditation every morning. I&apos;d like to purify my mind through meditation to live happy life..
         /// </summary>
         public static string myHobby {
             get {
@@ -277,7 +281,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hi? My name is Jinsu Kim working as a web developer for Bodog (http://www.bodog.eu/). I develop the business back office for online games..
+        ///   Looks up a localized string similar to Hi? My name is Jinsu Kim working as a web developer for Bodog. I develop the business back office and web service for online games..
         /// </summary>
         public static string myIntroduction {
             get {
@@ -304,7 +308,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to projectDesc1.
+        ///   Looks up a localized string similar to I work for Bodog poker game&apos;s business backoffice and web service..
         /// </summary>
         public static string projectDesc1 {
             get {
@@ -313,29 +317,11 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to projectDesc2.
+        ///   Looks up a localized string similar to CRM for everyone! I am working with CRM. I write a code as a hobby. I&apos;d like to make a company like a Salesforce.com!.
         /// </summary>
         public static string projectDesc2 {
             get {
                 return ResourceManager.GetString("projectDesc2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to projectDesc3.
-        /// </summary>
-        public static string projectDesc3 {
-            get {
-                return ResourceManager.GetString("projectDesc3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to projectDesc4.
-        /// </summary>
-        public static string projectDesc4 {
-            get {
-                return ResourceManager.GetString("projectDesc4", resourceCulture);
             }
         }
         
@@ -358,7 +344,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Skills Intro.
+        ///   Looks up a localized string similar to I am working as a ASP.NET Web developer. I develop MVC, Webform and WCF web service..
         /// </summary>
         public static string skillsIntro {
             get {

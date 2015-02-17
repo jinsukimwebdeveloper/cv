@@ -148,16 +148,16 @@
     <value>영어</value>
   </data>
   <data name="jobDesc1" xml:space="preserve">
-    <value>jobDesc1</value>
+    <value>Bodog poker 게임의 business backoffice 및 web service (REST API) 개발 하고 있습니다.</value>
   </data>
   <data name="jobDesc2" xml:space="preserve">
-    <value>jobDesc2</value>
+    <value>AIG 손해보험의 CRM production support를 하였습니다. 요구사항을 정의하고 인도 및 필리핀 개발 팀과 협업 하였습니다.</value>
   </data>
   <data name="jobDesc3" xml:space="preserve">
-    <value>jobDesc3</value>
+    <value>동양 온라인 게임의 CRM 개발을 하였습니다. Salesforce.com 클라우드 솔루션을 사용하여 개발하였습니다.</value>
   </data>
   <data name="jobDesc4" xml:space="preserve">
-    <value>jobDesc4</value>
+    <value>IPTV 어플리케이션 개발을 하였습니다. Embedded Java를 사용하여 개발을 하였습니다.</value>
   </data>
   <data name="jobTitle1" xml:space="preserve">
     <value>웹 개발자</value>
@@ -199,16 +199,10 @@
     <value>모국어</value>
   </data>
   <data name="projectDesc1" xml:space="preserve">
-    <value>projectDesc1</value>
+    <value>Bodog poker 게임의 business backoffice 및 web service (REST API) 개발 하고 있습니다.</value>
   </data>
   <data name="projectDesc2" xml:space="preserve">
-    <value>projectDesc2</value>
-  </data>
-  <data name="projectDesc3" xml:space="preserve">
-    <value>projectDesc3</value>
-  </data>
-  <data name="projectDesc4" xml:space="preserve">
-    <value>projectDesc4</value>
+    <value>모두를 위한 CRM이란 모토로 open source 기반으로 CRM을 개발하고 있습니다. </value>
   </data>
   <data name="recentProject" xml:space="preserve">
     <value>최근 프로젝트</value>
@@ -217,7 +211,7 @@
     <value>보유기술</value>
   </data>
   <data name="skillsIntro" xml:space="preserve">
-    <value>Microsoft ASP.Net C# 웹 어플리케이션 개발자로 일하고 있습니다. WebForm, MVC 그리고 WCF Rest API 웹서비스 개발 업무를 하고 있습니다.</value>
+    <value>ASP.Net C# 웹 어플리케이션 개발자로 일하고 있습니다. WebForm, MVC 그리고 WCF Rest API 웹서비스 개발 업무를 하고 있습니다.</value>
   </data>
   <data name="university1" xml:space="preserve">
     <value>인하 대학교</value>
