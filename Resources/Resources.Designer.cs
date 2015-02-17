@@ -88,6 +88,42 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string company1 {
+            get {
+                return ResourceManager.GetString("company1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string company2 {
+            get {
+                return ResourceManager.GetString("company2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string company3 {
+            get {
+                return ResourceManager.GetString("company3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string company4 {
+            get {
+                return ResourceManager.GetString("company4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Download CV.
         /// </summary>
         public static string downloadCV {
@@ -111,6 +147,42 @@ namespace Resources {
         public static string english {
             get {
                 return ResourceManager.GetString("english", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string jobTitle1 {
+            get {
+                return ResourceManager.GetString("jobTitle1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string jobTitle2 {
+            get {
+                return ResourceManager.GetString("jobTitle2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string jobTitle3 {
+            get {
+                return ResourceManager.GetString("jobTitle3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string jobTitle4 {
+            get {
+                return ResourceManager.GetString("jobTitle4", resourceCulture);
             }
         }
         
@@ -273,6 +345,15 @@ namespace Resources {
         public static string university2 {
             get {
                 return ResourceManager.GetString("university2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Work Experiences.
+        /// </summary>
+        public static string workExperience {
+            get {
+                return ResourceManager.GetString("workExperience", resourceCulture);
             }
         }
     }

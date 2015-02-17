@@ -126,6 +126,18 @@
   <data name="busiessLevel" xml:space="preserve">
     <value>회화 상/작문 상</value>
   </data>
+  <data name="company1" xml:space="preserve">
+    <value>Carbon Code Technology</value>
+  </data>
+  <data name="company2" xml:space="preserve">
+    <value>AIG 손해보험</value>
+  </data>
+  <data name="company3" xml:space="preserve">
+    <value>동양네트웍스</value>
+  </data>
+  <data name="company4" xml:space="preserve">
+    <value>알티캐스트</value>
+  </data>
   <data name="downloadCV" xml:space="preserve">
     <value>이력서 다운로드</value>
   </data>
@@ -135,6 +147,18 @@
   <data name="english" xml:space="preserve">
     <value>영어</value>
   </data>
+  <data name="jobTitle1" xml:space="preserve">
+    <value>웹 개발자</value>
+  </data>
+  <data name="jobTitle2" xml:space="preserve">
+    <value>Business Analyst</value>
+  </data>
+  <data name="jobTitle3" xml:space="preserve">
+    <value>웹 개발자</value>
+  </data>
+  <data name="jobTitle4" xml:space="preserve">
+    <value>어플리케이션 개발자</value>
+  </data>
   <data name="korean" xml:space="preserve">
     <value>한국어</value>
   </data>
@@ -142,7 +166,7 @@
     <value>언어</value>
   </data>
   <data name="latestBlogPosts" xml:space="preserve">
-    <value>최신 블러그 게시물</value>
+    <value>나의 최근 게시물</value>
   </data>
   <data name="major1" xml:space="preserve">
     <value>컴퓨터 공학</value>
@@ -188,5 +212,8 @@
   </data>
   <data name="university2" xml:space="preserve">
     <value>델리대학교</value>
+  </data>
+  <data name="workExperience" xml:space="preserve">
+    <value>경력</value>
   </data>
 </root>

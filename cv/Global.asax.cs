@@ -27,16 +27,23 @@ namespace cv
 
         private void Application_BeginRequest(Object source, EventArgs e)
         {
+            string culture;
+            if (Request.Cookies["lang"] != null)
+            {
+                culture = Request.Cookies["lang"].Value;
+                culture = string.IsNullOrEmpty(culture) ? "en-US" : culture;
+            }
+            else
+            {
+                // Browser's default language setting value
+                culture = Request.UserLanguages[0];
+            }
+
             HttpApplication application = (HttpApplication)source;
             HttpContext context = application.Context;
 
-            string culture = null;
-            if (context.Request.UserLanguages != null && Request.UserLanguages.Length > 0)
-            {
-                culture = Request.UserLanguages[0];
-                Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(culture);
-                Thread.CurrentThread.CurrentUICulture = Thread.CurrentThread.CurrentCulture;
-            }
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(culture);
+            Thread.CurrentThread.CurrentUICulture = Thread.CurrentThread.CurrentCulture;
         }
     }
 }
