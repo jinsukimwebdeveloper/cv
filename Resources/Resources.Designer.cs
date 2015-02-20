@@ -181,8 +181,8 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Developed Tongyang online CRM using Salesforce.com.
-        ///Developed Tongyang life insurance CRM demo using Salesforce.com.
+        ///   Looks up a localized string similar to Developed YTN Finance Application using Java.
+        ///Developed VOD (Video on Demand) Portal at Kbro, Taiwan.
         /// </summary>
         public static string jobDesc4 {
             get {
@@ -272,7 +272,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I play blues music with my friends. I love BB King. He is my hero. I practice meditation every morning. I&apos;d like to purify my mind through meditation to live happy life..
+        ///   Looks up a localized string similar to I play blues music with my friends. I love BB King. He is my hero. I believe that music can change the people&apos;s mind. I practice meditation every morning. I&apos;d like to purify my mind through meditation to live happy life..
         /// </summary>
         public static string myHobby {
             get {
@@ -317,7 +317,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to CRM for everyone! I am working with CRM. I write a code as a hobby. I&apos;d like to make a company like a Salesforce.com!.
+        ///   Looks up a localized string similar to CRM for everyone! I am working with CRM project. I write a code as a hobby. I&apos;d like to make a company like a Salesforce.com!.
         /// </summary>
         public static string projectDesc2 {
             get {

@@ -148,22 +148,22 @@
     <value>영어</value>
   </data>
   <data name="jobDesc1" xml:space="preserve">
-    <value>Bodog poker 게임의 business backoffice 및 web service (REST API) 개발 하고 있습니다.</value>
+    <value>Bodog 온라인 포커 게임의 business backoffice 및 web service를 개발 하고 있습니다.</value>
   </data>
   <data name="jobDesc2" xml:space="preserve">
-    <value>AIG 손해보험의 CRM production support를 하였습니다. 요구사항을 정의하고 인도 및 필리핀 개발 팀과 협업 하였습니다.</value>
+    <value>AIG 손해보험의 CRM production support를 하였습니다. 인도 및 필리핀 개발팀과 협업하여 프로젝트를 진행 하였습니다.</value>
   </data>
   <data name="jobDesc3" xml:space="preserve">
     <value>동양 온라인 게임의 CRM 개발을 하였습니다. Salesforce.com 클라우드 솔루션을 사용하여 개발하였습니다.</value>
   </data>
   <data name="jobDesc4" xml:space="preserve">
-    <value>IPTV 어플리케이션 개발을 하였습니다. Embedded Java를 사용하여 개발을 하였습니다.</value>
+    <value>IPTV 어플리케이션 개발을 하였습니다. YTN 뉴스의 TV 증권 어플리케이션을 개발 하였습니다.</value>
   </data>
   <data name="jobTitle1" xml:space="preserve">
     <value>웹 개발자</value>
   </data>
   <data name="jobTitle2" xml:space="preserve">
-    <value>Business Analyst</value>
+    <value>Project Leader</value>
   </data>
   <data name="jobTitle3" xml:space="preserve">
     <value>웹 개발자</value>
@@ -190,7 +190,7 @@
     <value>Blues 음악을 좋아합니다. BB King은 저의 영웅 입니다. 직장인 밴드에서 베이스 연주자로 블루스 음악을 연주하고 있습니다.</value>
   </data>
   <data name="myIntroduction" xml:space="preserve">
-    <value>안녕하세요? 웹 어플리케이션 개발자로 일하고 있는 김진수 라고 합니다. 저는 Bodog 온라인 게임 회사의 웹서비스 및 backoffice 개발 업무를 하고 있습니다.</value>
+    <value>안녕하세요? 웹 어플리케이션 개발자로 일하고 있는 김진수 라고 합니다. 저는 Bodog 온라인 포커 게임의 웹서비스 및 backoffice 개발 업무를 하고 있습니다.</value>
   </data>
   <data name="myName" xml:space="preserve">
     <value>김진수</value>
@@ -199,10 +199,10 @@
     <value>모국어</value>
   </data>
   <data name="projectDesc1" xml:space="preserve">
-    <value>Bodog poker 게임의 business backoffice 및 web service (REST API) 개발 하고 있습니다.</value>
+    <value>Bodog 온라인 포커 게임의 backoffice 및 web service를 개발 하고 있습니다.</value>
   </data>
   <data name="projectDesc2" xml:space="preserve">
-    <value>모두를 위한 CRM이란 모토로 open source 기반으로 CRM을 개발하고 있습니다. </value>
+    <value>모두를 위한 CRM이란 모토로, 취미삼아 개발을 하고 있습니다. 개발 완료 후에는 비영리 단체에 무료로 배포할 예정입니다.</value>
   </data>
   <data name="recentProject" xml:space="preserve">
     <value>최근 프로젝트</value>
@@ -211,7 +211,7 @@
     <value>보유기술</value>
   </data>
   <data name="skillsIntro" xml:space="preserve">
-    <value>ASP.Net C# 웹 어플리케이션 개발자로 일하고 있습니다. WebForm, MVC 그리고 WCF Rest API 웹서비스 개발 업무를 하고 있습니다.</value>
+    <value>ASP.Net C# 기반의 웹 어플리케이션 개발 업무를 하고 있습니다.</value>
   </data>
   <data name="university1" xml:space="preserve">
     <value>인하 대학교</value>
