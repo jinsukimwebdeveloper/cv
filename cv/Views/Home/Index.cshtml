@@ -3,9 +3,11 @@
 }
 
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+ <!--<![endif]-->
 <head>
     <title>Jinsu Kim CV</title>
     <!-- Meta -->
@@ -13,50 +15,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Jinsu Kim's CV">
-    <meta name="author" content="3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico">  
+    <meta name="author" content="3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
-    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="../assets/plugins/font-awesome/css/font-awesome.css">
     <!-- github acitivity css -->
     <link href="~/assets/plugins/github-activity/dist/github-activity-0.1.0.min.css" rel="stylesheet" />
     <link href="~/assets/plugins/github-activity/dist/octicons/octicons.min.css" rel="stylesheet" />
-    
-    
-    <!-- Theme CSS -->  
+
+
+    <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="../assets/css/styles.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-</head> 
+
+</head>
 
 <body>
-    <!-- ******HEADER****** --> 
+    <!-- ******HEADER****** -->
     <header class="header">
-        <div class="container">                       
+        <div class="container">
             <img class="profile-image img-responsive pull-left" src="../assets/images/profile.jpg" alt="Jinsu Kim" />
             <div class="profile-content pull-left">
                 <h1 class="name">@Resources.Resources.myName</h1>
-                <h2 class="desc">Web App Developer</h2>   
+                <h2 class="desc">Web App Developer</h2>
                 <ul class="social list-inline">
-                    <li><a href="https://github.com/jinsukimwebdeveloper"><i class="fa fa-github-alt"></i></a></li>                                 
-                </ul> 
+                    <li><a href="https://github.com/jinsukimwebdeveloper"><i class="fa fa-github-alt"></i></a></li>
+                </ul>
             </div><!--//profile-->
             &nbsp&nbsp
             <a href="@Url.Action("SetLanguage", "Home", new {language = "ko-KR" })" class="btn btn-default">한국어</a>
             <a href="@Url.Action("SetLanguage", "Home", new {language = "en-US" })" class="btn btn-default">English</a>
             <a class="btn btn-cta-primary pull-right" href="https://www.dropbox.com/s/91iz9a0zs4b2ukj/JinsuKim_Resume.doc?dl=0" target="_blank">
                 <span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span>
-                 @Resources.Resources.downloadCV</a>              
+                @Resources.Resources.downloadCV
+            </a>
         </div><!--//container-->
     </header><!--//header-->
-    
+
     <div class="container sections-wrapper">
         <div class="row">
             <div class="primary col-md-8 col-sm-12 col-xs-12">
@@ -64,42 +67,42 @@
                     <div class="section-inner">
                         <h2 class="heading">@Resources.Resources.aboutMe</h2>
                         <div class="content">
-                            <p>@Resources.Resources.myIntroduction</p>    
+                            <p>@Resources.Resources.myIntroduction</p>
                             <p>@Resources.Resources.myHobby</p>
                         </div><!--//content-->
-                    </div><!--//section-inner-->                 
+                    </div><!--//section-inner-->
                 </section><!--//section-->
-    
-               <section class="latest section">
+
+                <section class="latest section">
                     <div class="section-inner">
                         <h2 class="heading">@Resources.Resources.recentProject</h2>
-                        <div class="content">                
+                        <div class="content">
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12">
-                                <img class="img-responsive project-image" src="../assets/images/projects/project-1.jpg" alt="Bodog" />
+                                    <img class="img-responsive project-image" src="../assets/images/projects/project-1.jpg" alt="Bodog" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a href="http://poker.bodog.eu/" target="_blank">Bodog Poker online game</a></h3>
                                     <p>@Resources.Resources.projectDesc1</p>
                                     <p><a class="more-link" href="http://poker.bodog.eu/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div><!--//desc-->                          
+                                </div><!--//desc-->
                             </div><!--//item-->
-                            
+
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12">
-                                <img class="img-responsive project-image" src="../assets/images/projects/project-2.jpg" alt="CRM" />
+                                    <img class="img-responsive project-image" src="../assets/images/projects/project-2.jpg" alt="CRM" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a href="https://github.com/jinsukimwebdeveloper" target="_blank">Sheep CRM</a>&nbsp<span class="label label-theme">Open Source</span></h3>
                                     <p>@Resources.Resources.projectDesc2</p>
                                     <p><a class="more-link" href="https://github.com/jinsukimwebdeveloper" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div><!--//desc-->                          
+                                </div><!--//desc-->
                             </div><!--//item-->
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section--> 
-                
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
                 <section class="experience section">
                     <div class="section-inner">
                         <h2 class="heading">@Resources.Resources.workExperience</h2>
@@ -112,152 +115,151 @@
                                 <h3 class="title">@Resources.Resources.jobTitle2 - <span class="place"><a href="#">@Resources.Resources.company2</a></span> <span class="year">(2013 - 2014)</span></h3>
                                 <p>@Resources.Resources.jobDesc2</p>
                             </div><!--//item-->
-                            
+
                             <div class="item">
                                 <h3 class="title">@Resources.Resources.jobTitle3 - <span class="place"><a href="#">@Resources.Resources.company3</a></span> <span class="year">(2012 - 2013)</span></h3>
                                 <p>@Resources.Resources.jobDesc3</p>
                             </div><!--//item-->
 
-                             <div class="item">
+                            <div class="item">
                                 <h3 class="title">@Resources.Resources.jobTitle4 - <span class="place"><a href="#">@Resources.Resources.company4</a></span> <span class="year">(2009 - 2012)</span></h3>
                                 <p>@Resources.Resources.jobDesc4</p>
                             </div><!--//item-->
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
                 </section><!--//section-->
                 <section class="github section">
                     <div class="section-inner">
-                        <h2 class="heading">My GitHub</h2>      
-                        <!--//Usage: https://github.com/jinsukimwebdeveloper -->                       
+                        <h2 class="heading">My GitHub</h2>
+                        <!--//Usage: https://github.com/jinsukimwebdeveloper -->
                         <div id="ghfeed" class="ghfeed">
-                        </div><!--//ghfeed-->    
+                        </div><!--//ghfeed-->
                     </div><!--//secton-inner-->
                 </section><!--//section-->
             </div><!--//primary-->
             <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                 <aside class="info aside section">
+                <aside class="info aside section">
                     <div class="section-inner">
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>@Resources.Resources.address</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">jinsukimwebdeveloper@outlook.kr</a></li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:jinsukimwebdeveloper@outlook.kr">jinsukimwebdeveloper@outlook.kr</a></li>
                                 <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">https://jinsukimsite.wordpress.com/</a></li>
                             </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
                 </aside><!--//aside-->
-                
+
                 <aside class="skills aside section">
                     <div class="section-inner">
                         <h2 class="heading">@Resources.Resources.skills</h2>
                         <div class="content">
-                            <p class="intro">@Resources.Resources.skillsIntro
-                             </p>
-                            
-                            <div class="skillset">
-                               
-                                <div class="item">
-                                    <h3 class="level-title">ASP.NET MVC, Webform C#<span class="level-label">Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">HTML, CSS, jQuery, Bootstrap<span class="level-label">Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">WCF, SQL SERVER<span class="level-label">Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Java, GIT, SVN<span class="level-label">Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                            </div>              
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//section-->
-                
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">@Resources.Resources.education</h2>
-                        <div class="content">
-                            <div class="item">                      
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> @Resources.Resources.major1</h3>
-                                <h4 class="university">@Resources.Resources.university1 <span class="year">(1998-2009)</span></h4>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> @Resources.Resources.major2</h3>
-                                <h4 class="university">@Resources.Resources.university2 <span class="year">(2000-2004)</span></h4>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                            
-                <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">@Resources.Resources.languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>@Resources.Resources.korean:</strong></span>
-                                    <span class="level">@Resources.Resources.nativeLanguage <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>@Resources.Resources.english:</strong></span>
-                                    <span class="level">@Resources.Resources.businessLevel <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
-                                </li><!--//item-->
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-                <aside class="blog aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">@Resources.Resources.latestBlogPosts</h2>
-                        <div id="rss-feeds" class="content">
+                            <p class="intro">
+                                @Resources.Resources.skillsIntro
+                        </p>
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-            </div><!--//secondary-->    
-        </div><!--//row-->
-    </div><!--//masonry-->
-    
-    <!-- ******FOOTER****** --> 
-    <footer class="footer">
-        <div class="container text-center">
-                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
- 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="../assets/plugins/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="../assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" src="../assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
-    <!-- github activity plugin -->
-    <script type="text/javascript" src="../assets/plugins/github-activity/dist/mustache/mustache.min.js"></script>
-    <script type="text/javascript" src="../assets/plugins/github-activity/dist/github-activity-0.1.0.min.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="../assets/js/main.js"></script>            
+                        <div class="skillset">
+
+                            <div class="item">
+                                <h3 class="level-title">ASP.NET MVC, Webform C#<span class="level-label">Pro</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="80%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">HTML, CSS, jQuery, Bootstrap<span class="level-label">Pro</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="80%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">WCF, SQL SERVER<span class="level-label">Good</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="70%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Java, GIT, SVN<span class="level-label">Good</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="70%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+                        </div>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="education aside section">
+                <div class="section-inner">
+                    <h2 class="heading">@Resources.Resources.education</h2>
+                    <div class="content">
+                        <div class="item">
+                            <h3 class="title"><i class="fa fa-graduation-cap"></i> @Resources.Resources.major1</h3>
+                            <h4 class="university">@Resources.Resources.university1 <span class="year">(1998-2009)</span></h4>
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="title"><i class="fa fa-graduation-cap"></i> @Resources.Resources.major2</h3>
+                            <h4 class="university">@Resources.Resources.university2 <span class="year">(2000-2004)</span></h4>
+                        </div><!--//item-->
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="languages aside section">
+                <div class="section-inner">
+                    <h2 class="heading">@Resources.Resources.languages</h2>
+                    <div class="content">
+                        <ul class="list-unstyled">
+                            <li class="item">
+                                <span class="title"><strong>@Resources.Resources.korean:</strong></span>
+                                <span class="level">@Resources.Resources.nativeLanguage <br class="visible-xs" /><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                            </li><!--//item-->
+                            <li class="item">
+                                <span class="title"><strong>@Resources.Resources.english:</strong></span>
+                                <span class="level">@Resources.Resources.businessLevel <br class="visible-sm visible-xs" /><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                            </li><!--//item-->
+                        </ul>
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+
+            <aside class="blog aside section">
+                <div class="section-inner">
+                    <h2 class="heading">@Resources.Resources.latestBlogPosts</h2>
+                    <div id="rss-feeds" class="content">
+
+                    </div><!--//content-->
+                </div><!--//section-inner-->
+            </aside><!--//section-->
+        </div><!--//secondary-->
+    </div><!--//row-->
+</div><!--//masonry-->
+<!-- ******FOOTER****** -->
+<footer class="footer">
+    <div class="container text-center">
+        <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+    </div><!--//container-->
+</footer><!--//footer-->
+<!-- Javascript -->
+<script type="text/javascript" src="../assets/plugins/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="../assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+<!-- github activity plugin -->
+<script type="text/javascript" src="../assets/plugins/github-activity/dist/mustache/mustache.min.js"></script>
+<script type="text/javascript" src="../assets/plugins/github-activity/dist/github-activity-0.1.0.min.js"></script>
+<!-- custom js -->
+<script type="text/javascript" src="../assets/js/main.js"></script>
 </body>
-</html> 
+</html>
 
 
